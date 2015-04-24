@@ -1,0 +1,101 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textColor="#0066FF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <GridLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:columnCount="2"
+            android:rowCount="2" >
+
+    		<ImageView
+        android:id="@+id/imageView1"
+      
+        android:layout_height="152dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="100dp"
+         />
+    		
+    		<Button
+    		    android:id="@+id/button1"
+    		    
+    		    android:layout_width="92dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_column="1"
+    		    android:layout_gravity="fill_horizontal|top"
+    		    android:layout_marginTop="20dp"
+    		    android:layout_marginLeft="10dp"
+    		    android:layout_row="0"
+    		    android:background="@drawable/red_button"
+    		    android:textColor="#FFFFFF"
+    		    android:onClick="buyer"
+    		    android:visibility="invisible"
+    		    android:text="Buy" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:visibility="invisible"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_row="1"
+            android:textColor="#FFFFFF"
+            android:onClick="carter"
+            android:background="@drawable/red_button"
+            android:text="Add to Cart" />
+
+        </GridLayout>
+
+        
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ListView
+             android:id="@android:id/list"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+          android:layout_weight="1" > 
+        </ListView>
+
+    </TableRow>
+  
+</TableLayout>

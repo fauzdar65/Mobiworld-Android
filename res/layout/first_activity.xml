@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/afail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/afail"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        
+        android:layout_marginTop="96dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       
+        android:text="@string/vieworderbutton"
+        android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:layout_marginEnd="24dp"
+        android:layout_margin="13dp"
+        android:onClick="viewOrder" /> 
+        
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        
+        android:layout_marginTop="96dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       
+        android:text="@string/browsebutton"
+        android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:layout_marginEnd="24dp"
+        android:layout_margin="13dp"
+        android:onClick="viewBrands" /> 
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+        android:layout_below="@+id/button3"
+     android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
+       android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:layout_marginEnd="24dp"
+        android:layout_margin="13dp"
+        android:text="@string/logoutbutton"
+        android:onClick="lout"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        
+        
+        android:layout_toRightOf="@+id/afail"
+        android:scaleType="fitCenter"
+        android:onClick="showCart"
+        android:src="@drawable/cart" />
+
+</RelativeLayout>

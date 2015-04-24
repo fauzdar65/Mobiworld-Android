@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobistore</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_prompt">Login or Sign up</string>
+    <string name="user_entry">Username</string>
+    <string name="pass_entry">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign up</string>
+    <string name="title_activity_logged_screen">LoggedScreen</string>
+    <string name="vieworderbutton">View your orders</string>
+    <string name="browsebutton">Browse phones</string>
+    <string name="logoutbutton">Logout</string>
+    <string name="model">Model</string>
+    <string name="dateofpurchase">Order Date</string>
+    <string name="title_activity_orders_list">OrdersList</string>
+    <string name="title_activity_productview">Productview</string>
+    <string name="title_activity_cart_list">CartList</string>
+    <string name="brand_apple">Apple</string>
+    <string name="brand_blackberry">BlackBerry</string>
+    <string name="brand_samsung">Samsung</string>
+    <string name="brand_micromax">Micromax</string>
+    <string name="brand_htc">HTC</string>
+    <string name="brand_nokia">Nokia</string>
+    <string name="brand_motorola">Motorola</string>
+    <string name="brand_sony">Sony</string>
+    <string name="brand_lg">LG</string>
+    <string name="title_activity_brand_list">BrandList</string>
+    <string name="title_activity_phone_view">PhoneView</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_brand_view">BrandView</string>
+
+</resources>

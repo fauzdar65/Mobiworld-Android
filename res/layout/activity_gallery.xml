@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="3"
+    android:rowCount="6"
+    android:layout_marginLeft="20dp" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+      
+        android:layout_height="152dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="Apple"
+        android:onClick="opener"
+        android:src="@drawable/apple" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_height="152dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:layout_marginLeft="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="Blackberry"
+        android:onClick="opener"
+        android:src="@drawable/blackberry" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_height="152dp"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="Samsung"
+        android:onClick="opener"
+        android:src="@drawable/samsung" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="@string/brand_blackberry"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="@string/brand_apple" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="@string/brand_samsung"  
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_height="152dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="Micromax"
+        android:onClick="opener"
+        android:src="@drawable/micromax" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_height="152dp"
+        android:layout_column="1"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:onClick="opener"
+        android:contentDescription="htc"
+        android:src="@drawable/htc" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_height="152dp"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="nokia"
+        android:onClick="opener"
+        android:src="@drawable/nokia" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="3"
+        android:text="@string/brand_micromax" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="3"
+        android:text="@string/brand_htc" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="3"
+        android:text="@string/brand_nokia"  
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+     <ImageButton
+         android:id="@+id/imageButton7"
+         android:layout_height="152dp"
+         android:layout_column="0"
+         android:layout_gravity="center_horizontal"
+         android:onClick="opener"
+         android:layout_row="4"
+         android:adjustViewBounds="true"
+         android:scaleType="fitCenter"
+         android:contentDescription="motorola"
+         android:src="@drawable/motorola" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_height="152dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="4"
+        android:layout_marginLeft="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:onClick="opener"
+        android:contentDescription="sony"
+        android:src="@drawable/sony" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_height="152dp"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="lg"
+        android:onClick="opener"
+        android:src="@drawable/lg" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="5"
+        android:text="@string/brand_motorola" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="5"
+        android:text="@string/brand_sony" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="5"
+        android:text="@string/brand_lg"  
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</GridLayout>
